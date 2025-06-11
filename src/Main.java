@@ -2,7 +2,7 @@ import java.util.Scanner;
 //NAME:  add your name here
 //DATE:  add the current date of your lab class
 //LAB TIME: add the time of your lab class
-//PROGRAM: Lab 1
+//PROGRAM:
 public class Main {
     public static void main(String[] args) {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
