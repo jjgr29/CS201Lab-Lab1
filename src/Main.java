@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Welcome to CS201L - Lab1!");
+        System.out.println("Welcome to CS201L - Lab1!");
 
         //declare variables used
         int x1, x2, y1, y2;
@@ -43,5 +43,6 @@ public class Main {
         //calculate dist1 & dist2
 
         //determine which is closer and print
+
     }
 }
