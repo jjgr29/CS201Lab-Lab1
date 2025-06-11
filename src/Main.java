@@ -40,7 +40,7 @@ public class Main {
         //print both points
         System.out.println("Point 1: (" + x1 + ", " + y1 + ")");
 
-        //calculate dist1 & dist2 (distance from each point to the origin)
+        //calculate dist1 & dist2 (the distance from each point to the origin)
 
         //determine which is closer to the origin and print
 
