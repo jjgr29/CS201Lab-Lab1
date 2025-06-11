@@ -36,7 +36,7 @@ public class Main {
             System.out.println("The value " + choice + " is not a valid option!");
             return;
         }
-        //print both points as coordinate points
+        //print both points
         System.out.println("Point 1: (" + x1 + ", " + y1 + ")");
         System.out.println("Point 2: (" + x2 + ", " + y2 + ")");
 
