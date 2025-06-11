@@ -20,30 +20,29 @@ public class Main {
         System.out.print("\nHow would you like to get your 4 values: enter(e) or generate(g)? ");
         inputLine = input.nextLine();
         choice = inputLine.charAt(0);
+
+        //allow user to enter both points (1 point has been done for you)
         if (choice == 'e') {
             System.out.println("Enter the 4 values separated by spaces: ");
             x1 = input.nextInt();
             y1 = input.nextInt();
-            x2 = input.nextInt();
-            y2 = input.nextInt();
+
         }
+        //generate a value from -10 to 10 for both points (1 point has been done for you)
         else if (choice == 'g') {
             x1 = (int)(Math.random() * 21) - 10;
             y1 = (int)(Math.random() * 21) - 10;
-            x2 = (int)(Math.random() * 21) - 10;
-            y2 = (int)(Math.random() * 21) - 10;
-        }
+         }
         else {
             System.out.println("The value " + choice + " is not a valid option!");
             return;
         }
         //print both points
         System.out.println("Point 1: (" + x1 + ", " + y1 + ")");
-        System.out.println("Point 2: (" + x2 + ", " + y2 + ")");
 
-        //calculate dist1 & dist2
+        //calculate dist1 & dist2 (distance from each point to the origin)
 
-        //determine which is closer and print
+        //determine which is closer to the origin and print
 
     }
 }
